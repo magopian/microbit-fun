@@ -1,6 +1,28 @@
 # Having fun with the BBC micro:bit
 
-This python code in this repository can be compiled to a .hex file using the
+## Demos
+
+### mood.py
+
+Press `A` (sad), `B` (happy) or both (meh) until the "smiley face" becomes
+bright enough and flashes.
+
+### rain.py
+
+Nothing to do, just watch "rain pour down the screen".
+
+### morse.py
+
+Find the morse code for the displayed letter: use the `A` button for short
+(less than 250ms) or long (more than 250ms) presses. Once you're done, press
+the `B` button to submit your answer.
+
+The proper answer is then scrolled accross the screen.
+
+
+## Compiling/Running the demos
+
+The python code in this repository can be compiled to a .hex file using the
 [mu editor](http://codewith.mu/) or the
 [python microbit online editor](http://python.microbit.org/editor.html).
 

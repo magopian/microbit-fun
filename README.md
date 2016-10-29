@@ -4,14 +4,20 @@
 
 ### mood.py
 
+[![micro:bit micropython mood feedback](http://img.youtube.com/vi/CEhl6yVauYY/0.jpg)](http://www.youtube.com/watch?v=CEhl6yVauYY)
+
 Press `A` (sad), `B` (happy) or both (meh) until the "smiley face" becomes
 bright enough and flashes.
 
 ### rain.py
 
+[![micro:bit micropython rain demo](http://img.youtube.com/vi/FKbMBZA7wAk/0.jpg)](http://www.youtube.com/watch?v=FKbMBZA7wAk)
+
 Nothing to do, just watch "rain pour down the screen".
 
 ### morse.py
+
+[![micro:bit micropython morse game](http://img.youtube.com/vi/Ai1WnAvL8yo/0.jpg)](http://www.youtube.com/watch?v=Ai1WnAvL8yo)
 
 Find the morse code for the displayed letter: use the `A` button for short
 (less than 250ms) or long (more than 250ms) presses. Once you're done, press
@@ -60,6 +66,8 @@ uflash <your_script_name>.py /Volumes/MICROBIT/<some_file_name>.hex
 
 
 ## Use the "main.py" loader
+
+[![micro:bit micropython loader](http://img.youtube.com/vi/IzlabY8lnFs/0.jpg)](http://www.youtube.com/watch?v=IzlabY8lnFs)
 
 This is a very useful trick:
 [mainly main.py](https://microbit-micropython.readthedocs.io/en/latest/tutorials/storage.html#mainly-main-py).

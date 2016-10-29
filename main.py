@@ -8,7 +8,7 @@ modules = [file_[:-3] for file_ in files
 
 
 while True:  # Outer loop: cycle between choices.
-    for module in modules:
+    for module in sorted(modules):
         display.scroll(module, wait=False, loop=True)
         # Inner loop: keep scrolling current choice until a button is pressed.
         a_pressed = button_a.was_pressed()

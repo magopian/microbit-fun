@@ -37,9 +37,9 @@ uflash <your_script_name>.py /Volumes/MICROBIT/<some_file_name>.hex
 ```
 
 
-## Use the "main.py" trick
+## Use the "main.py" loader
 
-This is a very clever and useful trick:
+This is a very useful trick:
 [mainly main.py](https://microbit-micropython.readthedocs.io/en/latest/tutorials/storage.html#mainly-main-py).
 
 This allows the use of "proper python modules" by uploading a `main.py` file on
@@ -65,3 +65,8 @@ automatically run on each device reset.
 
 Changing the `main.py` file is MUCH faster than re-flashing the device, and
 allows for a much tighter feedback loop (and we all love that).
+
+You can now add the files you want to be run using `ufs put`, and the `main.py`
+loader will allow you to choose which one you want to run:
+- press the `A` (left) button to cycle through the different modules
+- press the `B` (right) button to run the current module

@@ -47,6 +47,14 @@ instead of scrolling it from left to right.
 Find the random heading by rotating the micro:bit. The closer you are from the
 answer, the brighter the screen will be.
 
+### accel.py
+
+[![micro:bit micropython accel](http://img.youtube.com/vi/4PWaQM7BLF8/0.jpg)](http://www.youtube.com/watch?v=4PWaQM7BLF8)
+
+Shake the micro:bit and see how high you can reach! Press the A button to start
+a countdown, when the screen lights up, you have 2 seconds to shake the
+micro:bit. It'll then tell you how hard it was shaken.
+
 
 ## Compiling/Running the demos
 

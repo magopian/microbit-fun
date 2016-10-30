@@ -1,3 +1,8 @@
+"""Chrono.
+
+Nothing to do but to read the time elapsed since the demo has been started, in
+the HH:MM:SS format.
+"""
 from microbit import *
 from utils import NUMBERS, image_from_number, zigzag
 

@@ -1,3 +1,12 @@
+"""Morse code game.
+
+Try guessing the morse code for the character displayed on the screen.
+Use short (less than 250ms) or long (more than 250ms) presses on the A button,
+then press the B button when you're done.
+
+If you guessed correctly, you'll see a "ok mark", otherwise you'll be greeted
+with a big cross, and the correct code will be displayed.
+"""
 import random
 from microbit import *
 

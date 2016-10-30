@@ -1,3 +1,11 @@
+"""Micropython loader.
+
+This will only work if you have flashed an "empty micropython runtime" hex file
+(using the uflash utility).
+The loader will display the first module that it found on the micro:bit
+filesystem. To skip to the next one, use the A button. To run the current
+module, press B.
+"""
 import os
 from microbit import *
 

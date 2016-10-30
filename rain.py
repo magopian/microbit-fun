@@ -1,3 +1,8 @@
+"""Pouring rain.
+
+Or at least, something resembling pouring rain. Nothing to do, just watch (and
+enjoy. Maybe).
+"""
 from microbit import *
 import random
 

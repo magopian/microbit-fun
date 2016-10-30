@@ -88,3 +88,11 @@ def zigzag(get_value_func, delay, pause):
         display.show(img.shift_left(i))
         sleep(delay)
     sleep(pause)
+
+
+def blink(img):
+    for i in range(5):
+        display.show(img)
+        sleep(200)
+        display.clear()
+        sleep(200)

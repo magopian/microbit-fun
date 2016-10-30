@@ -7,14 +7,7 @@ buttons at once will display a "meh" face.
 """
 
 from microbit import *
-
-
-def blink(img):
-    for i in range(5):
-        display.show(img)
-        sleep(200)
-        display.clear()
-        sleep(200)
+from utils import blink
 
 
 def increase_while_pressed(buttons, img):

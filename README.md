@@ -40,6 +40,13 @@ the display instead of scrolling it from left to right.
 Display the time elapsed as HH:MM:SS. Display it by "zigzagging" the display
 instead of scrolling it from left to right.
 
+### compass.py
+
+[![micro:bit micropython compass](http://img.youtube.com/vi/086ttLzBSo4/0.jpg)](http://www.youtube.com/watch?v=086ttLzBSo4)
+
+Find the random heading by rotating the micro:bit. The closer you are from the
+answer, the brighter the screen will be.
+
 
 ## Compiling/Running the demos
 

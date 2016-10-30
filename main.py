@@ -4,7 +4,9 @@ from microbit import *
 
 files = os.listdir()
 modules = [file_[:-3] for file_ in files
-           if file_ != 'main.py' and file_.endswith('.py')]
+           if (file_ != 'main.py'
+               and file_ != 'utils.py'
+               and file_.endswith('.py'))]
 
 
 while True:  # Outer loop: cycle between choices.

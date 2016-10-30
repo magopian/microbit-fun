@@ -94,9 +94,8 @@ while True:
 
     if check_answer(letter, ''.join(answer)):
         display.show(Image.YES)
+        sleep(1000)
     else:
         display.show(Image.NO)
-    sleep(1000)
-
-    display.scroll(MORSE_CODE_LOOKUP[letter])
-    sleep(1000)
+        sleep(1000)
+        display.scroll(MORSE_CODE_LOOKUP[letter])

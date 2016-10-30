@@ -25,6 +25,14 @@ the `B` button to submit your answer.
 
 The proper answer is then scrolled accross the screen.
 
+### temp.py
+
+
+[![micro:bit micropython temperature](http://img.youtube.com/vi/fFkNeOHV1h4/0.jpg)](http://www.youtube.com/watch?v=fFkNeOHV1h4)
+
+Display the temperature measured by the micro:bit. Display it by "zigzagging"
+the display instead of scrolling it from left to right.
+
 
 ## Compiling/Running the demos
 

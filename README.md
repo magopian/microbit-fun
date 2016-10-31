@@ -56,6 +56,25 @@ a countdown, when the screen lights up, you have 2 seconds to shake the
 micro:bit. It'll then tell you how hard it was shaken.
 
 
+### usb.py
+
+
+[![micro:bit micropython usb](http://img.youtube.com/vi/SjCzI3OQxiQ/0.jpg)](http://www.youtube.com/watch?v=SjCzI3OQxiQ)
+
+Read messages sent from the computer connected via USB (serial).
+
+Messages sent to the micro:bit using the pyserial python library on the
+computer will be displayed.
+
+An easy way to connect to the micro:bit serial port on the computer is to start
+a REPL (using `python`), then:
+```
+>>> import microfs
+>>> s = microfs.get_serial()
+>>> s.write("Hello world")
+```
+
+
 ## Compiling/Running the demos
 
 The python code in this repository can be compiled to a .hex file using the
